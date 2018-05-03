@@ -1,5 +1,5 @@
 {
-  "name": "weprovide/lessconfigdump",
+  "name": "sannehoogmans/lessconfigdump",
   "description": "Config Dump For Deployment",
   "type": "magento2-module",
   "license": "MIT",
@@ -16,7 +16,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "WeProvide\\SubCategory": "."
+      "SanneHoogmans\\SubCategory": "."
     }
   }
 }

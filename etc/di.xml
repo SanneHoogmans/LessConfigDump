@@ -3,11 +3,11 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="weprovide_config_dump" xsi:type="object">WeProvide\LessConfigDump\Console\Command\ConfigDump</item>
+                <item name="weprovide_config_dump" xsi:type="object">SanneHoogmans\LessConfigDump\Console\Command\ConfigDump</item>
             </argument>
         </arguments>
     </type>
-    <type name="WeProvide\LessConfigDump\Console\Command\ConfigDump">
+    <type name="SanneHoogmans\LessConfigDump\Console\Command\ConfigDump">
         <arguments>
             <argument name="sources" xsi:type="array">
                 <item name="scopes" xsi:type="array">

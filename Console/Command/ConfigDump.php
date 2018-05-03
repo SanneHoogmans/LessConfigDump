@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace WeProvide\LessConfigDump\Console\Command;
+namespace SanneHoogmans\LessConfigDump\Console\Command;
 
 use Magento\Deploy\Model\DeploymentConfig\Hash;
 use Magento\Framework\App\Config\ConfigSourceInterface;
