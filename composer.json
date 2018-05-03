@@ -1,0 +1,22 @@
+{
+  "name": "weprovide/lessconfigdump",
+  "description": "Config Dump For Deployment",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sanne Hoogmans"
+    }
+  ],
+  "require": {
+    "magento/framework": "^100.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WeProvide\\SubCategory": "."
+    }
+  }
+}

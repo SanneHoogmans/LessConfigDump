@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="weprovide_config_dump" xsi:type="object">WeProvide\LessConfigDump\Console\Command\ConfigDump</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="WeProvide\LessConfigDump\Console\Command\ConfigDump">
+        <arguments>
+            <argument name="sources" xsi:type="array">
+                <item name="scopes" xsi:type="array">
+                    <item name="source" xsi:type="object">scopesConfigSourceAggregated</item>
+                    <item name="namespace" xsi:type="const">Magento\Store\App\Config\Type\Scopes::CONFIG_TYPE</item>
+                </item>
+                <item name="themes" xsi:type="array">
+                    <item name="source" xsi:type="object">Magento\Theme\Model\Source\InitialThemeSource</item>
+                    <item name="namespace" xsi:type="string">themes</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
