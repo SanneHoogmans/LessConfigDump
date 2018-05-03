@@ -16,7 +16,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "SanneHoogmans\\SubCategory": "."
+      "SanneHoogmans\\LessConfigDump\\": ""
     }
   }
 }
