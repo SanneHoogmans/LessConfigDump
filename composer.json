@@ -9,9 +9,6 @@
       "name": "Sanne Hoogmans"
     }
   ],
-  "require": {
-    "magento/framework": "^100.0.0"
-  },
   "autoload": {
     "files": [
       "registration.php"
